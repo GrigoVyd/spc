@@ -11,6 +11,7 @@ setup(name='spc',
       author_email=spc.__author_email__,
       url='https://github.com/rohanisaac/spc',
       packages=['spc'],
+      setup_requires=["numpy"]
       install_requires=['numpy'],
       classifiers=[
         'Development Status :: 4 - Beta',
